@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "UXGenie",
+  "description": "Your personal AI-powered UX design assistant",
+  "version": "1.0",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Activate UXGenie"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["sidebar.html", "sidebar.css", "sidebar.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
