@@ -41,8 +41,5 @@ Future Enhancements
 
 Created by
 **DiCoders**
-Tanuja
-Aditi
-Manvit
-Shashi
+Tanuja, Aditi, Manvit and Shashi
 Pixel Verse – A National Level UI/UX Hackathon
